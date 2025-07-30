@@ -2,7 +2,7 @@ from otree.api import *
 
 
 class C(BaseConstants):
-    NAME_IN_URL = 'L1U1_test'
+    NAME_IN_URL = 'L0U0'
     PLAYERS_PER_GROUP = None
     NUM_ROUNDS = 1
     NUM_TASKS = 10
