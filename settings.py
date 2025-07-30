@@ -8,6 +8,24 @@ SESSION_CONFIGS = [
         app_sequence=['L0U0', 'Confluence'],
         num_demo_participants=1,
     ),
+    dict(
+        name='L0U1',
+        display_name="L0U1",
+        app_sequence=['L0U1', 'Confluence'],
+        num_demo_participants=1,
+    ),
+    dict(
+        name='L1U0',
+        display_name="L1U0",
+        app_sequence=['L1U0', 'Confluence'],
+        num_demo_participants=1,
+    ),
+    dict(
+        name='L1U1',
+        display_name="L1U1",
+        app_sequence=['L1U1', 'Confluence'],
+        num_demo_participants=1,
+    ),
 ]
 
 # 最終的なシーケンスは'Front_task', 'L1U1_Both', 'Back_task', 'questions'
