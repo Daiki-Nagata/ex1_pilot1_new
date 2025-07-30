@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: ex1-pilot1
+    runtime: python
+    pythonVersion: 3.10          # ← 必須！小数点まで
+    buildCommand: pip install -r requirements.txt
+    startCommand: otree prodserver
